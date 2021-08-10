@@ -1,0 +1,217 @@
+package com.java;
+
+public class Main {
+
+  public static void main(String[] args) {
+   
+   // tutorial print dan jenis jenis print
+  //println
+
+  System.out.println("kamp 1");
+  System.out.println("kamp 2");
+  // print
+
+  System.out.print("kamp 3");
+  System.out.print("kamp 4");
+  //print \n
+  
+  System.out.print("kamp 5 \n");
+  System.out.print("kamp 6 \n");
+  //printf
+  System.out.printf("kamp 7 %d" ,200);
+  
+  //tutorial variabel 
+  
+  int x = 10; // assigment
+  System.out.println("nilai x = " + (x + 2));
+  
+  // deklarasi
+  
+  int p;
+  
+  p = 7;
+  
+  System.out.println("nilai p = " + p);
+  
+ // integer
+   
+   int i = 10;
+   System.out.println("---integer---");
+   System.out.println("nilai i = " + (i + 4));
+   System.out.println("max integer = " + Integer.MAX_VALUE);
+   System.out.println("min integer = " + Integer.MIN_VALUE);
+   System.out.println("besar integer = " + Integer.BYTES);
+   System.out.println("bit integer = " + Integer.SIZE);
+   
+   // byte
+
+   System.out.println("---byte---");
+   byte b = 7;
+   System.out.println("nilai b = " + (b + 2));
+   System.out.println("max byte = " + Byte.MAX_VALUE);
+   System.out.println("min byte = " + Byte.SIZE);
+   System.out.println("besar byte = " + Byte.BYTES);
+   System.out.println("bit byte = " + Byte.SIZE);
+   
+   // short
+   
+   System.out.println("---short---");
+   short s = 2;
+   System.out.println("nilai s = " + (s + 5));
+   System.out.println("max_short = " + Short.MAX_VALUE);
+   System.out.println("min short = " + Short.MIN_VALUE);
+   System.out.println("besar short = " + Short.BYTES);
+   System.out.println("bit short = " + Short.SIZE);
+   
+   // long
+  
+   System.out.println("---long---");
+   long l = 6;
+   System.out.println("nilai l = " + (l + 2));
+   System.out.println("max long = " + Long.MAX_VALUE);
+   System.out.println("min long = " + Long.MIN_VALUE);
+   System.out.println("besar long = " + Long.BYTES);
+   System.out.println("bit long = " + Long.SIZE);
+  
+  // double
+  
+   System.out.println("---double---");
+   double d = 11.5d;
+   System.out.println("nilai d = " + (d + 6));
+   System.out.println("max double = " + Double.MAX_VALUE);
+   System.out.println("min double = " + Double.MIN_VALUE);
+   System.out.println("besar double = " + Double.BYTES);
+   System.out.println("bit double = " + Double.SIZE);
+   
+   // float
+
+   System.out.println("---float---");
+   float f = -6.5f;
+   System.out.println("nilai f = " + (f + 5));
+   System.out.println("max float = " + Float.MAX_VALUE);
+   System.out.println("min float = " + Float.MIN_VALUE);
+   System.out.println("besar float = " + Float.BYTES);
+   System.out.println("bit float = " + Float.SIZE);
+   
+   // character
+   
+   System.out.println("---character---");
+   char c = 'c';
+   System.out.println("nilai c = " + c);
+   System.out.println("max char = " + Character.MAX_VALUE);
+   System.out.println("min char = " + Character.MIN_VALUE);
+   System.out.println("besar char = " + Character.BYTES);
+   System.out.println("bit char = " + Character.SIZE);
+   
+   // boolean
+   
+   System.out.println("---boolean---");
+   boolean val = true;
+   System.out.println("nilai boolean = " + val);
+   System.out.println("Max = " + Boolean.TRUE);
+   System.out.println("min boolean = " + Boolean.FALSE);
+   
+   // operasi aritmatika
+
+   // type arirmatika
+
+   System.out.println("contoh penjumlahan");
+
+   int k = 14;
+   
+   int h = 12;
+   
+   int hasil = 
+   
+   hasil = k + h;
+   
+   System.out.println(k + "+" + h + "=" + hasil);
+      
+   // 2.pengurangan
+   
+   hasil = k - h;
+   
+   System.out.printf(" %d - %d = %d \n",k,h,hasil);
+   
+   // 3.perkalian
+   
+   hasil = k * h;
+   
+   System.out.printf(" %d * %d = %d \n",k,h,hasil);
+   
+   //.4.pembagian
+  
+   System.out.println("kalo ini saya akan menggunakan typo float sebagai contoh");
+   
+   float cu = 10;
+   float ci = 5;
+   float hasilbro = cu/ci;
+   System.out.println(cu + "+" + ci + "=" + hasilbro);
+  
+   
+   //.5.modulus
+   
+   hasil = k % h;
+   
+   System.out.printf(" %d %% %d = %d \n",k,h,hasil);
+   
+  
+   // operator untuk kontoversi data
+   
+   int nilaiInt = 200;
+   System.out.println("nilai Int = " + nilaiInt);
+   
+   // memperluas rentang ke tipe data yang lebih besar
+   
+   long nilailong = nilaiInt;
+   System.out.println("nilai long = " + nilailong);
+   
+   // akan bermasalah jiak rentang ke nilai yang lebih kecil
+
+   byte nilaiByte = (byte) nilaiInt;
+   System.out.println("nilai byte = " + nilaiByte);
+   
+   // casting pembagian yang benar
+
+    int u = 35;
+    float g = 20;
+    
+    float o = u/g;
+    System.out.printf("%d / %f = %f \n" ,u,g,o);
+    
+    // casting pembagian yang benar 2
+    
+    int so = 35;
+    int si = 20;
+    
+    float jo = (float) so/si;
+    System.out.printf("%d / %d = %f \n" ,so,si,jo);
+ 
+    // unary = oprasi yang di lakukan pada satu variabel
+    
+    int angka = 4;
+    
+    System.out.printf("unary '-', %d menjadi %d\n",angka, -angka);
+     System.out.printf("unary '-', %d menjadi %d\n",angka, angka);
+    
+    // unary incremen
+
+    int angka3 = 12;
+    angka3++;
+    System.out.println("angka '++' menjadi = " + angka3);
+    
+    int angka4 = 12;
+    angka4--;
+    System.out.println("angka '--' menjadi = " + angka4);
+    
+    int angka6 = 10;
+    angka6++;
+    System.out.println("angka '++' jadi = " + angka6);
+   
+    int a = 5;
+    System.out.printf("nilai '++' menjadi prefex = %d \n", ++a);
+    
+    int cok = 6;
+    System.out.printf("nilai '++' menjadi prefix = %d \n", cok++);
+  }
+}
